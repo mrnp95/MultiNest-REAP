@@ -52,10 +52,14 @@ $ pip install pymultinest
 ```
 or you can check this link for more installation options: [Click](http://johannesbuchner.github.io/PyMultiNest/install.html)
 
+-------------------------------------------------------------------------------------------------------------------------------
+
 Now that the required packages are installed, we proceed to installing the __MultiNest-REAP__:
 
 ```
-ssh bash setup.sh
+$ git clone https://github.com/mrnp95/MultiNest-REAP.git
+$ cd MultiNest-REAP
+$ ssh bash setup.sh
 ```
 
 
