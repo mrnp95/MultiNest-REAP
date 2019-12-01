@@ -1,0 +1,13 @@
+#!/usr/bin/env wolframscript
+# for certain older versions of Mathematica replace 'wolframscript' by
+# 'MathematicaScript -script' in the shebang line
+
+value=ToExpression[$ScriptCommandLine[[2]]];
+
+(*The next line prints the script name.*)
+(*Print[$ScriptCommandLine[[1]]];*)
+
+
+
+Export["point.txt",ExportString[value,"List"]]
+
