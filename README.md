@@ -1,5 +1,5 @@
 # MultiNest-REAP
-Python interface for multi-core nested sampling of parameter space for mixing angles, masses and phases of leptons and quarks, and their RG evolution.
+Python interface for multi-core nested sampling of parameter space for mixing angles, masses and phases of leptons and quarks, and their RG evolution. For any issues or questions email me at `mrn31@cam.ac.uk`.
 
 ## Installation
 First of all please install the following pre-requisities.
