@@ -62,6 +62,16 @@ $ cd MultiNest-REAP
 $ ssh bash setup.sh
 ```
 
+-------------------------------------------------------------------------------------------------------------------------------
+
+## Multi-core running
+There is an example script in the `examples` folder that you can run now. In order to run this example using multiple cores of your machine, do as follows: 
+
+```
+$ cd ./examples/
+$ mpiexec -n 4 python majorana_neutrinos.py
+```
+You can take a look at the `./examples/majorana_neutrinos.py` to have a better understanding of what's going on behind the scenes. 
 
 
 
