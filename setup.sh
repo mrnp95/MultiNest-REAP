@@ -17,6 +17,6 @@ echo;
 echo "Preparing examples ...";
 echo;
 
-cp -pR ./HSMU_REAP.m ~/.Mathematica/Applications/
+cp -pR ./examples/HSMU_REAP.m ~/.Mathematica/Applications/
 
 
